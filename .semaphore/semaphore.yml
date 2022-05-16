@@ -21,9 +21,12 @@ blocks:
   - name: Build
     task:
       jobs:
-        - name: Build Project
+        - name: clean
           commands:
-            - ./gradlew minApi21GooglePlayRelease
+            - ./gradlew clean
+        - name: build
+          commands:
+            - .gradlew build
       epilogue:
         on_pass:
           commands:
