@@ -23,7 +23,7 @@ blocks:
       jobs:
         - name: clean
           commands:
-            - ./gradlew clean
+            - ./gradlew clean build
         - name: build
           commands:
             - .gradlew build
