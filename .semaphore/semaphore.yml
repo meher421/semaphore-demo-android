@@ -23,7 +23,7 @@ blocks:
       jobs:
         - name: Build Project
           commands:
-            - ./gradlew bundleDebug
+            - ./gradlew minApi21GooglePlayRelease
       epilogue:
         on_pass:
           commands:
