@@ -26,7 +26,7 @@ blocks:
             - ./gradlew clean build
         - name: build
           commands:
-            - .gradlew build
+            - ./gradlew build
       epilogue:
         on_pass:
           commands:
